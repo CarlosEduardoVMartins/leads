@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leads Full Stack JavaScript</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="container">
+        <main> 
+      <img src="logo.png" height="75px" width="75px"/>
+      <h1>Full Stack JavaScript</h1> 
+      </main>
+    <nav>
+        <a href="index.html"><div id="home">Home</div></a>
+        <a href="O-Inicio.html"><div id="inicio">Sua Jornada</div></a>
+        <a href="ginasios.html"><div id="ginasio">Ginásios</div></a>
+        <a href="form.html"><div id="form">Cadastro</div></a>
+
+      </nav>
+
+    <section class="course-advertisement">
+        <div class="container">
+            <h2>Curso Full Stack JavaScript</h2>
+            <p>Domine o desenvolvimento web moderno com o nosso curso completo de JavaScript Full Stack! Do front-end ao back-end, você aprenderá tudo o que é necessário para se tornar um desenvolvedor de elite.</p>
+            <ul>
+                <li>Entendimento profundo de JavaScript ES6+.</li>
+                <li>Frameworks populares como React, Angular e Vue.</li>
+                <li>Node.js, Express e MongoDB no back-end.</li>
+                <li>Projetos práticos e implementações do mundo real.</li>
+            </ul>
+            <div class="image-scrollbar">
+                <img src="img/css-logo.png" alt="Curso imagem 1" height="375px" width="575px">
+                <img src="img/js-logo.png" alt="Curso imagem 2" height="375px" width="575px">
+                <img src="img/html-logo.png" alt="Curso imagem 3" height="375px" width="575px">
+            </div>
+        </div>
+    </section>
+
+	<datalist id="genero">
+		<option value="feminino">
+		<option value="masculino">
+		<option value="não_informado">
+	</datalist>
+
+    <div id="login" class="container">
+        <h1>Inscreva-se:</h1>
+        <form action="http://localhost:3000/dados" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="celular">Celular:</label>
+			<input type="text" id="celular" name="celular" required>
+			<label for="genero">Gênero:</label>
+			<input type="text" id="genero" name="genero" list="genero" required>
+            <input type="checkbox" id="lgpd" name="lgpd" required>
+            <label for="lgpd">Aceito os termos de uso e política de privacidade</label>
+            <input type="submit" value="ENVIAR">
+        </form>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 JS Academy. Todos os direitos reservados.</p>
+            <p>CNPJ: 12.345.678/0001-90</p>
+            <p>Contato: (11) 98765-4321 | contato@jsacademy.com.br</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desenvolvimento Full Stack</title>
+        <!-- Fonte -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+        <!-- Estilos -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+        <!-- Progress Bar -->
+        <script src="js/progressbar.min.js"></script>
+        <!-- Parallax -->
+        <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+      </head>
+      <body>
+        <body>
+            <header>
+                <div class="container" id="nav-container">
+                    <!--add essa class-->
+    
+                <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                    <a class="navbar-brand" href="index.html">
+                        <img id="logo" src="img/logo.jpeg" alt="T1 e 2M Agência">CURSO FULL STACK
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                        <span> class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+                            <a class="nav-item nav-link" id="about-menu" href="login.html">Administração de Leads</a>
+                        </div>
+                    </div>
+                 </nav>
+                 </div>
+            </header>
+        <!--Sobre a empressa-->
+        <div id="about-area">
+            <div class="container">
+             <div class="row">
+                <div class="col-12">
+                    <br>
+                    <h3 class="main-title">Nosso Curso de Programação</h3>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="img/backgroun.png" alt="Agencia T1 e 2M">
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <p>Domine o desenvolvimento web moderno com o nosso curso completo de JavaScript Full Stack! Do front-end ao back-end, você aprenderá tudo o que é necessário para se tornar um desenvolvedor de elite.</p>
+                    <h3 class="about-title"> Em nosso curso você aprenderá:</h3>
+                    <ul id="about-list">
+                        <li><i class="fas fa-check"></i> Entendimento profundo de JavaScript ES6+. </li>
+                        <li><i class="fas fa-check"></i> Frameworks populares como React, Angular e Vue. </li>
+                        <li><i class="fas fa-check"></i> Node.js, Express e MongoDB no back-end. </li>
+                        <li><i class="fas fa-check"></i> Projetos práticos e implementações do mundo real.</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            </div>
+            <!--Serviços da empresa-->]
+            <div id="services-area">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">ÁREAS PARA SE TRABALHAR NO RAMO DA TECNOLOGIA</h3>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-mobile-alt"></i>
+                      <h4>Programação de Aplicativos</h4>
+                      <p>Um desenvolvedor de aplicativos – também conhecido como desenvolvedor de aplicativos móveis ou desenvolvedor móvel – é alguém que projeta, desenvolve e implementa aplicativos móveis. Eles são responsáveis ​​pelo desenvolvimento de aplicativos especialmente para Android e iOS.</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-shopping-cart"></i>
+                      <h4>Marketing Digital</h4>
+                      <p>Ele tem como objetivo atrair o cliente por meio de conteúdo relevante. Dessa forma, as empresas procuram entender as necessidades dos consumidores para, em seguida, estabelecerem um canal de comunicação com essas pessoas, com o objetivo de oferecer uma solução para os seus problemas.</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-paint-brush"></i>
+                      <h4>Design Gráfico</h4>
+                      <p>O designer gráfico é responsável por criar projetos de comunicação visual, tanto para materiais online ou offline, como para páginas de internet, anúncios, outdoors e panfletos.</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fab fa-google"></i>
+                      <h4>Criação de Sites</h4>
+                      <p>Realiza o desenvolvimento técnico e visual de páginas da internet e manutenção de sites, definindo linguagens, bancos de dados, armazenamento e atualização de informações, a fim de atender o volume de internautas e seu correto funcionamento.</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-hands-helping"></i>
+                      <h4>CEOs de Tecnologia</h4>
+                      <p>Os CEOs geralmente são responsáveis por determinar a direção estratégica da empresa e garantir que os objetivos sejam implementados por meio de etapas funcionais. Além disso, eles assumem o comando na criação da cultura organizacional.</p>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-server"></i>
+                      <h4>Banco de Dados</h4>
+                      <p>Formular técnicas para coleta de dados de qualidade visando assegurar adequação, exatidão e segurança dos dados. Elaborar e implementar procedimentos eficientes e seguros de gestão e análise de dados levando em conta todos os aspectos técnicos.</p>
+                    </div>
+                 </div>
+                </div>
+            </div>
+     <!-- Dados da empresa -->
+     <div id="data-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleA"></div>
+              <p>Salário médio de desenvolvedor de aplicativos</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleB"></div>
+              <p>Salário médio de um Designer Gráfico</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleC"></div>
+              <p>Sálario médio de um Desenvolvedor Web</p>
+            </div>  
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleD"></div>
+              <p>Sálario médio de um Gerente de Dados</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Time -->
+     <div id="team-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="main-title">Tecnologias que você irá aprender</h3>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/html-logo.png" class="card-img-top" alt="Imagem de Perfil 1">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML</h5>
+                            <a href="https://www.instagram.com/p/CxgHtCkuMXN/?igshid=ZDVlYzViZTdiYg==" alt="html">Saiba mais sobre HTML</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/css-logo.png" class="card-img-top" alt="imagem de Perfil 2">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <a href="https://www.instagram.com/p/CxgKIF_xLQJ/?igshid=MzMyNGUyNmU2YQ==" alt="html">Saiba mais sobre CSS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/js-logo.png" class="card-img-top" alt="imagem de Perfil 3">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <a href="https://www.instagram.com/p/CxgIhKWO-a-/?igshid=MzMyNGUyNmU2YQ==" alt="html">Saiba mais sobre JavaScript</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/node-logo.png" class="card-img-top" alt="imagem de Perfil 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Node.Js</h5>
+                        <a href="https://www.instagram.com/p/CxgLkD9xMJ8/?igshid=MzMyNGUyNmU2YQ==" alt="html">Saiba mais sobre Node.js</a>
+                        <p></p>
+                      </div>
+                 </div>
+            </div>
+       </div>
+  </div>
+</div>
+ <!-- Trabalhe conosco -->
+ <div id="apply-area">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 apply-box" id="company-img"></div>
+        <div class="col-md-6 apply-box" id="pattern-img">
+          <h4>A Importância da Programação</h4>
+          <p>A programação impulsiona o avanço tecnológico ao possibilitar a criação de novas soluções e ferramentas. Ela é responsável pelo desenvolvimento de softwares, aplicativos e sistemas que facilitam nosso dia a dia e ampliam as possibilidades tecnológicas em áreas como saúde, educação, indústria e comunicação.</p>
+          <br>
+          <p>-DESENVOLVEM O RACIOCÍNIO LÓGICO.</p>
+          <p>-ESTIMULAM O APRENDIZADO DE MATEMÁTICA E FÍSICA.</p>
+          <p>-DESENVOLVEM A HABILIDADE DA ESCRITA.</p>
+          <p>-MELHORAM A CRIATIVIDADE.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <datalist id="genero">
+    <option value="feminino">
+    <option value="masculino">
+    <option value="não_informado">
+</datalist>
+
+<div class="container">
+    <h1>Inscreva-se:</h1>
+    <form action="http://localhost:3000/dados" method="POST">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <label for="celular">Celular:</label>
+        <input type="text" id="celular" name="celular" required>
+        <label for="genero">Gênero:</label>
+        <input type="text" id="genero" name="genero" list="genero" required>
+        <br>
+        <input type="checkbox" id="lgpd" name="lgpd" required>
+        <label for="lgpd">Aceito os termos de uso e política de privacidade</label>
+        <br>
+        <input type="submit" value="ENVIAR">
+    </form>
+</div>
+
+<footer>
+    <div class="container">
+        <p>© 2023 JS Academy. Todos os direitos reservados.</p>
+        <p>CNPJ: 12.345.678/0001-90</p>
+        <p>Contato: (11) 98765-4321 | contato@jsacademy.com.br</p>
+    </div>
+</footer>
+<!--Scripts do projeto-->
+   <script src="js/scripts.js"></script>
+</body> 
+</body>
+</html>
